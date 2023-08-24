@@ -1,0 +1,96 @@
+*{
+    font-family: sans-serif;
+}
+
+.heading{
+    margin: 4rem 0rem;
+    text-align: center;
+    color: rgb(153, 144, 238);
+}
+
+
+.score_heading{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgb(153, 144, 238);
+    font-size: 20px;
+}
+
+.score_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+
+
+}
+
+.human_score, .computer_score{
+    text-align: center;
+    padding: 2rem .5rem;
+    flex: 1;
+
+}
+
+.human_score{
+    border-right: 2px solid rgb(153, 144, 238) ;
+}
+.human_score .score_value, .computer_score .score_value{
+    color: rgb(153, 144, 238);
+}
+
+.move{
+    color: rgb(88, 88, 88);
+}
+
+.game_container .game_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.game_heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    color: rgb(88, 88, 88);
+}
+
+
+.game_buttons button{
+    font-size: large;
+    font-weight: bold;
+    margin: 1rem;
+    color: white;
+    border: 0px;
+    background:  rgb(153, 144, 238);
+    width: 9rem;
+    height: 4rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.reset_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#reset{
+    font-size: medium;
+    font-weight: 100;
+    margin: 1rem;
+    color: rgb(153, 144, 238);
+    border: 2px solid rgb(153, 144, 238);
+    background-color: white;
+    width: 4rem;
+    height: 2rem;
+    cursor: pointer;
+    
+}
+
